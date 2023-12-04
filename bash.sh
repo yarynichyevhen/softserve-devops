@@ -6,3 +6,5 @@ do
 	echo The counter is $COUNTER
 	(( COUNTER=COUNTER+1 ))
 done
+
+# added new feature
