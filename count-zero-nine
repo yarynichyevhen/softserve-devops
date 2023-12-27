@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# counts from 0 to 9
+
+COUNTER=0
+while [ $COUNTER -lt 10 ]
+do
+	echo The counter is $COUNTER
+	(( COUNTER+=1 ))
+done
